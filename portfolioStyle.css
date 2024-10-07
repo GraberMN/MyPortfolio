@@ -1,0 +1,521 @@
+body {
+    background-color: rgb(48, 45, 41);
+    background-image: url("Images/Background\ Image\ V4.PNG");
+    margin-left: 10px;
+    margin-top: -10px;
+    background-position: center;
+    background-attachment: fixed;
+}
+header {
+    position: fixed;
+    background-color: rgb(48, 45, 41);
+    border-bottom: 2px solid white;
+    padding-bottom: 7px;
+    padding-top: 5px;
+    margin-top: 10px;
+    z-index: 998;
+    left: 10px;
+    right: 10px;
+    background-image: url("Images/Background\ Image\ V4.PNG");
+    background-position: center;
+    background-attachment: fixed;
+}
+#Icon {
+    margin-right: 328.5px;
+}
+#HomeButton {
+    color: aqua;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    white-space: pre;
+}
+#ActualHomeButton {
+    display: inline-block;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 4px;
+}
+#ActualHomeButton:hover {
+    display: inline-block;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 4px;
+    font-style: normal;
+}
+#AboutButton {
+    color: aqua;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    white-space: pre;
+}
+#ActualAboutButton {
+    display: inline-block;
+}
+#ActualAboutButton:hover {
+    display: inline-block;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 4px;
+    font-style: normal;
+}
+#ProjectsButton {
+    color: aqua;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    white-space: pre;
+}
+#ActualProjectsButton {
+    display: inline-block;
+}
+#ActualProjectsButton:hover {
+    display: inline-block;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 4px;
+    font-style: normal;
+}
+#SkillsButton {
+    color: aqua;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    white-space: pre;
+}
+#ActualSkillsButton {
+    display: inline-block;
+}
+#ActualSkillsButton:hover {
+    display: inline-block;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 4px;
+    font-style: normal;
+}
+#ContactMeButton {
+    color: aqua;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    white-space: pre;
+}
+#ActualContactMeButton {
+    display: inline-block;
+}
+#ActualContactMeButton:hover {
+    display: inline-block;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 4px;
+    font-style: normal;
+}
+#HeaderElements {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.HeaderButtons {
+    color: aqua;
+    float: right;
+}
+#HelloMessage {
+    position: relative;
+    color: white;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 40px;
+    margin-left: 5px;
+    margin-top: 100px;
+    margin-right: 270px;
+}
+#Name {
+    color: aqua;
+    display: inline-block;
+}
+img {
+    max-width: 100%;
+    height: 200px;
+    image-rendering: optimizeSpeed;
+    border-color: white;
+    border-style: solid;
+    margin-right: 5px;
+}
+#BioPic {
+    max-width: 160px;
+    margin-right: 10px;
+}
+.BioPicButtons {
+    position: relative;
+    transform: translateY(-40px);
+    z-index: 997;
+    left: -56px;
+}
+#BioPicButton1 {
+    margin-right: 5px;
+    cursor: pointer;
+}
+#BioPicButton2 {
+    color: aqua;
+    cursor: pointer;
+}
+#HelloMessagePlusImage {
+    display: flex;
+    justify-content: center;
+}
+button {
+    color: aqua;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(48, 45, 41);
+    transform: translateX(0px);
+    margin-top: 14px;
+    margin-bottom: -5px;
+    margin-right: 565px;
+    box-shadow: none;
+}
+button:hover {
+    font-style: normal;
+    box-shadow: 0.5px 0.5px aqua;
+    cursor: pointer;
+}
+#BioButtons {
+    display: flex;
+    justify-content: center;
+}
+#BioPicButton1 {
+    visibility: hidden;
+}
+#BioPicButton2 {
+    visibility: hidden;
+}
+@media (max-width: 1200px) {
+    #HelloMessage {
+        margin-right: 155px;
+    }
+    button {
+        margin-right: 450px;
+    }
+    #Icon {
+        margin-right: 214px;
+    }
+}
+@media (max-width: 700px) {
+    #HelloMessage {
+        margin-right: 50px;
+    }
+    button {
+        margin-right: 344px;
+    }
+    #Icon {
+        margin-right: 110px;
+    }
+}
+@media (max-width: 600px) {
+    #HelloMessage {
+        margin-right: 20px;
+    }
+    button {
+        margin-right: 310px;
+    }
+    .BioPicButtons {
+        left: -55px;
+    }
+    #Icon {
+        margin-right: 80px;
+    }
+}
+#CenteredHeader {
+    color: aqua;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 6px;
+    margin-bottom: 40px;
+}
+p {
+    color: white;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    line-height: 2.7;
+    max-width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 985px) {
+    p {
+        max-width: 55%;
+    }
+}
+@media (min-width: 1100px) {
+    p {
+        max-width: 50%;
+    }
+}
+@media (min-width: 1370px) {
+    p {
+        max-width: 45%;
+    }
+}
+@media (min-width: 1500px) {
+    p {
+        max-width: 40%;
+    }
+}
+@media (min-width: 1800px) {
+    p {
+        max-width: 37.5%;
+    }
+}
+#ProjectsRow1 {
+    display: flex;
+    justify-content: center;
+}
+#Project1Image {
+    border-color: white;
+}
+#Project2Image {
+    border-color: white;
+}
+#Project3Image {
+    border-color: white;
+}
+figcaption {
+    color: white;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    caption-side: bottom;
+    text-align: center;
+}
+#Figcaption1 {
+    text-decoration-line: underline;
+    text-decoration-color: aqua;
+}
+#Figcaption1:hover {
+    font-style: normal;
+}
+#ComingSoon {
+    color: aqua;
+    display: inline-block;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+@media (max-width: 825px) {
+    #Project1Image {
+        height: 175px;
+        width: auto;
+    }
+    #Project2Image {
+        height: 175px;
+        width: auto;
+    }
+    #Project3Image {
+        height: 175px;
+        width: auto;
+    }
+}
+@media (max-width: 750px) {
+    #Project1Image {
+        height: 150px;
+        width: auto;
+    }
+    #Project2Image {
+        height: 150px;
+        width: auto;
+    }
+    #Project3Image {
+        height: 150px;
+        width: auto;
+    }
+}
+@media (max-width: 665px) {
+    #Project1Image {
+        height: 125px;
+        width: auto;
+    }
+    #Project2Image {
+        height: 125px;
+        width: auto;
+    }
+    #Project3Image {
+        height: 125px;
+        width: auto;
+    }
+}
+@media (max-width: 585px) {
+    #Project1Image {
+        height: 100px;
+        width: auto;
+    }
+    #Project2Image {
+        height: 100px;
+        width: auto;
+    }
+    #Project3Image {
+        height: 100px;
+        width: auto;
+    }
+}
+@media (max-width: 555px) {
+    #Project1Image {
+        height: 95px;
+        width: auto;
+    }
+    #Project2Image {
+        height: 95px;
+        width: auto;
+    }
+    #Project3Image {
+        height: 95px;
+        width: auto;
+    }
+}
+#Skills {
+    color: white;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#SkillsRow1 {
+    display: flex;
+    justify-content: center;
+}
+#SkillsRow2 {
+    display: flex;
+    justify-content: center;
+}
+#Item1 {
+    display: flex;
+    border-style: solid;
+    padding-left: 71px;
+    padding-right: 38px;
+    border-left: none;
+    border-top: none;
+    border-radius: 15px;
+}
+#Item2 {
+    display: flex;
+    border-style: solid;
+    padding-left: 42px;
+    padding-right: 51px;
+    border-right: none;
+    border-top: none;
+    border-radius: 15px;
+}
+#Item3 {
+    display: flex;
+    border-style: solid;
+    padding-left: 77px;
+    padding-right: 38px;
+    border-left: none;
+    border-bottom: none;
+    border-radius: 15px;
+}
+#Item4 {
+    display: flex;
+    border-style: solid;
+    padding-left: 42px;
+    padding-right: 88px;
+    border-bottom: none;
+    border-right: none;
+    border-radius: 15px;
+}
+#Note1 {
+    max-width: 65%;
+}
+textarea {
+    display: block;
+    color: black;
+    font-weight: 1000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+input {
+    color: aqua;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(48, 45, 41);
+    margin-top: 40px;
+    margin-bottom: 80px;
+    box-shadow: 0px 0.01px 0px 0px black;
+}
+input:hover {
+    font-style: normal;
+    box-shadow: 0.5px 0.5px 0px 0px aqua;
+}
+footer {
+    border-style: hidden;
+    border-top: 2px solid white;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 25px;
+    color: aqua;
+    margin-right: 2px;
+}
+#NameInFooter {
+    margin-bottom: -70px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+#Icon {
+    animation-fill-mode: none;
+}
+#Icon:hover {
+    animation-name: iconAnim;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+#Copyright {
+    margin-bottom: 60px;
+}
+#Greeting {
+    animation-name: greetingAnim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes iconAnim {
+    from {transform: rotate(0.5turn);}
+    to {transform: rotate(1turn);}
+}
+@keyframes greetingAnim {
+    0% {opacity: 0;}
+    10% {opacity: 0;}
+    20% {opacity: 1;}
+    30% {opacity: 1;}
+    40% {opacity: 1;}
+    50% {opacity: 1}
+    60% {opacity: 1}
+    70% {opacity: 0.66}
+    80% {opacity: 0.33}
+    90% {opacity: 0}
+    100% {opacity: 0}
+}
+html::-webkit-scrollbar {
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar-track-piece {
+    background: dimgrey;
+}
+html::-webkit-scrollbar-thumb {
+    background: aqua;
+    border-radius: 7px;
+}
+html::-webkit-scrollbar-button:vertical:increment {
+    background-image: url("Images/Bottom\ Scrollbar\ Button.png")
+}
+html::-webkit-scrollbar-button:vertical:increment:hover {
+    background-image: url("Images/Bottom\ Scrollbar\ Button\ On\ Hover.png")
+}
+html::-webkit-scrollbar-button:vertical:decrement {
+    background-image: url("Images/Top\ Scrollbar\ Button.png")
+}
+html::-webkit-scrollbar-button:vertical:decrement:hover {
+    background-image: url("Images/Top\ Scrollbar\ Button\ On\ Hover.png")
+}

@@ -1,0 +1,93 @@
+<!-- I COMPLIED WITH COMPANIES' GUIDELINES TO USE THEIR LOGOS -->
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+    <head>
+        <title>
+            Mateo's Portfolio
+        </title>
+        <link rel="icon" href="Images/Favicon.ico">
+        <link rel="stylesheet" href="portfolioStyle.css">
+        <script src="portfolioScript.js"> </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+    </head>
+    <body onload="onLoadFunctions()">
+        <header align="center">
+            <div id="HeaderElements"><a href="#top"><img id="Icon" src="Images/Favicon.png" style="float: left; max-width: 19px; max-height: 16px; border: none; margin-left: 5px; margin-top: 3px;" alt="M" style="color: aqua;"></a>
+            <span id="HeaderButtons"><div id="HomeButton"><div id="ActualHomeButton" class="HeaderButton"><a href="#top">Home</a></div></div>
+            <div id="AboutButton">     <div id="ActualAboutButton" class="HeaderButton"><a href="#About">About</a></div>     </div>
+            <div id="ProjectsButton"><div id="ActualProjectsButton" class="HeaderButton"><a href="#Projects">Projects</a></div>     </div>
+            <div id="SkillsButton"><div id="ActualSkillsButton" class="HeaderButton"><a href="#Skills">Skills</a></div>     </div>
+            <div id="ContactMeButton"><div id="ActualContactMeButton" class="HeaderButton"><a href="#Contact Me">Contact Me</a></div> </div> </span></div>
+        </header>
+        <div id="HelloMessagePlusImage"><div id="HelloMessage"> <h1 id="Greeting">
+            Hello! </h1> <h1> My name is <div id="Name">Mateo</div>. </h1> <h1 id="Activities"> Comp Sci Major.
+        </h1> </div>
+        <div id="BioPic"> <img style="margin-top: 120px; border-radius: 25px;" src="Images/Linkedin Bio Pic.jpg" alt="Picture of Me"> </div> </div>
+        <div id="BioButtons"><div id="ContactMeButton2"> <button id="About"> <a href="#Contact Me">Contact Me</a></button> </div>
+        <span class="BioPicButtons"><input type="button" value="<" id="BioPicButton1"><input type="button" value=">" id="BioPicButton2"></span></div>
+        <div id="CenteredHeader" style="margin-top: -66px;"> <h1> About </h1> </div>
+        <p align="center"> I am a freshman at the University of Florida majoring in computer science with an emphasis on artificial intelligence. I
+        am especially interested in artificial intelligence and machine learning, but other specializations, such as
+        cybersecurity and data science, are attractive to me as well. I look forward to taking full advantage of relevant
+        opportunities and internships throughout my undergraduate degree and beyond.</p> <div id="Projects" style="color: rgb(79, 150, 100); width: 0; height: 0; overflow: hidden; transform: translateY(-60px);">.</div>
+        <div id="CenteredHeader" style="margin-top: 30px;"> <h1> Projects </h1> </div>
+        <div id="ProjectsRow1" align="center">
+        <figure id="Project1">
+            <img id="Project1Image" style="margin-top: 10px; margin-bottom: 10px; border-radius: 25px;" src="Images/Portfolio Image.PNG" alt="Image of This Porfolio"> <a href="http://127.0.0.1:3000/MyPortfolio/Mateo'sPortfolio.html" id="Project1ImageLink"></a>
+            <figcaption> <a href="http://127.0.0.1:3000/MyPortfolio/Mateo'sPortfolio.html" id="Figcaption1" onmouseover="project1Linked()" onmouseout="project1Restored()"> Mateo's Portfolio </a> </figcaption>
+        </figure>
+        <figure id="Project2">
+            <img id="Project2Image" style="margin-top: 10px; border-style: dashed; margin-bottom: 10px; border-radius: 25px;" src="Images/CredSourceComp.PNG" alt="Credible Vs. Not Image">
+            <figcaption id="Figcaption2"> CredSourceComp - <div id="ComingSoon"> COMING SOON </div> </figcaption>
+        </figure>
+        </div>
+        <div id="ProjectsRow2" align="center">
+        <figure id="Project3">
+            <img id="Project3Image" style="margin-top: 10px; border-style: dashed; margin-bottom: 10px; border-radius: 25px;" src="Images/Chess Image.jpg" alt="Chessboard Image">
+            <figcaption id="Figcaption3"> Chess 2.0 - <div id="ComingSoon"> COMING SOON </div> </figcaption>
+        </figure>
+        </div>
+        <div id="CenteredHeader" style="font-size: xx-large; color: white; text-decoration: none; margin-top: -40px;"> <h1> ... </h1> </div> 
+        <div id="Skills" style="color: rgb(79, 150, 100); width: 0; height: 0; overflow: hidden; transform: translateY(-90px);">.</div>
+        <div id="CenteredHeader" style="margin-top: -15px; margin-bottom: 65px;"> <h1> Skills </h1> </div>
+        <div id="Skills"> <div id="SkillsRow1">
+            <div id="Item1"> <h2 style="margin-right: 5px;"> Java </h2> <img src="Images/Java.svg" alt="Java Logo" style="border: none; height: auto;" width="29px"> </div>
+            <div id="Item2"> <h2 style="margin-right: 5px;"> HTML </h2> <img src="Images/HTML5.svg" alt="HTML Logo" style="border: none; height: auto;" width="27px"> </div> </div>
+            <div id="SkillsRow2"> <div id="Item3"> <h2 style="margin-right: 5px;"> CSS </h2> <img src="Images/CSS.svg" alt="CSS Logo" style="border: none; height: auto;" width="27px"> </div>
+            <div id="Item4"><h2 style="margin-right: 5px;"> JS </h2> <img src="Images/JavaScript.PNG" alt="JS Logo" style="border: none; width: 27px; height: 27px; margin-top: 18px"></div> </div>
+        </div>
+        <div id="CenteredHeader" style="font-size: xx-large; color: white; text-decoration: none; margin-top: -25px;"> <h1> ... </h1> </div>
+        <div id="Contact Me" style="color: rgb(79, 150, 100); width: 0; height: 0; overflow: hidden; transform: translateY(-80px);">. </div>
+        <div id="CenteredHeader" style="margin-top: -20px; margin-bottom: 65px;"> <h1> Contact Me </h1> </div>
+        <form onsubmit="alertOnSubmit()" method="post">
+            <p id="Note1" style="text-align: center; margin-top: -15px;">*Hover over textbox for restrictions*</p>
+            <textarea id="Flname" placeholder="Your Full Name " rows="3" cols="40" required name="flname" onchange="checkInputName(this)" title="3 or more characters"></textarea>
+            <textarea id="Pnumber" placeholder="Your Phone Number " rows="2" cols="40" required maxlength="10" name="pnumber" onchange="checkInputPhoneNumber(this)" title="e.g.: 9876543210, 10 digits"></textarea>
+            <textarea id="Eaddress" placeholder="Your Email Address " rows="2" cols="40" required name="eaddress" onchange="checkInputEmailAddress(this)" title="e.g.: jsmith@gmail.com, 2 or more letters after period"></textarea>
+            <textarea id="Message" placeholder="Your Message " rows="12" cols="40" required name="message" style="margin-bottom: 25px;" onchange="checkInputMessage(this)" title="8 or more characters"></textarea>
+            <div id="FormButtons" align="center">
+                <input type="reset" id="ResetButton" value="Reset" style="cursor: pointer">
+                <input type="submit" id="SubmitButton" value="Submit" style="cursor: pointer">
+            </div>
+        </form>
+        <footer align="center"> 
+            <div id="NameInFooter" style="font-size: xx-large; z-index: 999;"> Mateo Graber </div>
+            <div id="FooterIcons" align="center">
+                <map name="FacebookMap">
+                    <area id="FacebookArea" onmouseover="facebookHover()" onmouseout="facebookLeave()" shape="circle" coords="14.5, 100, 14.5" href="https://www.facebook.com/profile.php?id=100086580240269" target="_blank">
+                </map>
+                <img id="Facebook" usemap="#FacebookMap" src="Images/Facebook.svg" alt="Facebook Logo" style="border-style: hidden; max-width: 29px; float: none; margin-bottom: -70px; margin-right: 15px; margin-left: 1px;">
+                <map name="InstaMap">
+                    <area id="InstaArea" onmouseover="instaHover()" onmouseout="instaLeave()" shape="rect" coords="0, 85, 30, 115" href="https://www.instagram.com/mayothebrotho" target="_blank">
+                </map>
+                <img id="Insta" usemap="#InstaMap" src="Images/Instagram.svg" alt="Insta Logo" style="border-style: hidden; max-width: 30px; float: none; margin-bottom: -70px; margin-right: 3px;">
+                <map name="LinkedinMap">
+                    <area id="LinkedinArea" onmouseover="linkedinHover()" onmouseout="linkedinLeave()" shape="rect" coords="0, 82, 30, 115" href="https://www.linkedin.com/in/mateo-g-33a20230b?trk=blended-typeahead" target="_blank">
+                </map>
+                <img id="Linkedin" usemap="#LinkedinMap" src="Images/Linkedin.svg" alt="Linkedin Logo" style="border-style: hidden; max-width: 36px; float: none; margin-bottom: -70px; margin-right: 0px; margin-left: 10px;">
+            </div>
+            <div id="Copyright"> Not copyrighted yet </div>
+        </footer>
+    </body>
+</html>
