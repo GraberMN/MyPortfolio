@@ -89,34 +89,34 @@ function greetingLangChange6() {
     document.getElementById("Greeting").innerHTML = "Hello!";
 }
 function activitiesLangCycle() {
-    setTimeout(activitiesLangChange1, 6000);
-    setTimeout(activitiesLangChange2, 12000);
-    setTimeout(activitiesLangChange3, 18000);
-    setTimeout(activitiesLangChange4, 24000);
-    setTimeout(activitiesLangChange5, 30000);
-    setTimeout(activitiesLangChange6, 36000);
+    setTimeout(activitiesChange1, 6000);
+    setTimeout(activitiesChange2, 12000);
+    setTimeout(activitiesChange3, 18000);
+    setTimeout(activitiesChange4, 24000);
+    setTimeout(activitiesChange5, 30000);
+    setTimeout(activitiesChange6, 36000);
 }
-function activitiesLangChange1() {
+function activitiesChange1() {
     document.getElementById("Activities").innerHTML = "Avid Learner.";
 }
-function activitiesLangChange2() {
+function activitiesChange2() {
     document.getElementById("Activities").innerHTML = "Team Player.";
 }
-function activitiesLangChange3() {
+function activitiesChange3() {
     document.getElementById("Activities").innerHTML = "AI Enthusiast.";
 }
-function activitiesLangChange4() {
+function activitiesChange4() {
     document.getElementById("Activities").innerHTML = "Dog Lover.";
 }
-function activitiesLangChange5() {
+function activitiesChange5() {
     document.getElementById("Activities").innerHTML = "Hard Worker.";
 }
-function activitiesLangChange6() {
+function activitiesChange6() {
     document.getElementById("Activities").innerHTML = "Comp Sci Major.";
 }
 function underlineCurrentSection() {
+    k = 0;
     window.addEventListener("scroll", () => {
-        k = 0;
         const scrollTop = window.scrollY;
         const headerButtons = document.getElementsByClassName("HeaderButton");
         for (let i = 0; i < headerButtons.length; i++) {
