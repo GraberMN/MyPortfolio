@@ -1,5 +1,7 @@
-function alertOnSubmit() {
-    alert("Your message has been sent. You will receive a response from grabermn3@gmail.com in 1-2 business days. Thank you for your time.");
+function alertOnReturn() {
+    if (document.referrer == "https://formsubmit.co/form/submission") {
+        alert("Your message has been sent. You will receive a response from grabermn3@gmail.com in 1-2 business days. Thank you for your time.");
+    }
 }
 function checkInputName(checkedINelement) {
     const validCharacters = /.{3,}/i;
@@ -61,6 +63,7 @@ function onLoadFunctions() {
     activitiesLangCycle();
     setInterval(activitiesLangCycle, 36000);
     underlineCurrentSection();
+    alertOnReturn();
 }
 function greetingLangCycle() {
     setTimeout(greetingLangChange1, 3000);
