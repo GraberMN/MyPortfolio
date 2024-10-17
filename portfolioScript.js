@@ -1,5 +1,5 @@
 function alertOnReturn() {
-    if (document.referrer != "") {
+    if (document.referrer == "https://formsubmit.co/form/submission") {
         alert("Your message has been sent. You will receive a response from grabermn3@gmail.com in 1-2 business days. Thank you for your time.");
     }
 }
