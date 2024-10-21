@@ -146,11 +146,11 @@ function underlineCurrentSection() {
             underlineSection("ActualProjectsButton");
             k = 2;
         }
-        else if (scrollTop > 1540 && scrollTop <= 1895) {
+        else if (scrollTop > 1540 && scrollTop <= 1900) {
             underlineSection("ActualSkillsButton");
             k = 3;
         }
-        else if (scrollTop > 1895) {
+        else if (scrollTop > 1900) {
             underlineSection("ActualContactMeButton");
             k = 4;
         }
