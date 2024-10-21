@@ -138,19 +138,19 @@ function underlineCurrentSection() {
             underlineSection("ActualHomeButton");
             k = 0;
         }
-        else if (scrollTop > 325 && scrollTop <= 710) {
+        else if (scrollTop > 325 && scrollTop <= 925) {
             underlineSection("ActualAboutButton");
             k = 1;
         }
-        else if (scrollTop > 710 && scrollTop <= 1448) {
+        else if (scrollTop > 925 && scrollTop <= 1570) {
             underlineSection("ActualProjectsButton");
             k = 2;
         }
-        else if (scrollTop > 1448 && scrollTop <= 1830) {
+        else if (scrollTop > 1570 && scrollTop <= 1945) {
             underlineSection("ActualSkillsButton");
             k = 3;
         }
-        else if (scrollTop > 1830) {
+        else if (scrollTop > 1945) {
             underlineSection("ActualContactMeButton");
             k = 4;
         }
