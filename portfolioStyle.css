@@ -264,12 +264,12 @@ p {
 }
 @media (min-width: 1500px) {
     p {
-        max-width: 40%;
+        width: 500px;
     }
 }
 @media (min-width: 1800px) {
     p {
-        max-width: 37.5%;
+        width: 500px;
     }
 }
 #ProjectsRow1 {
