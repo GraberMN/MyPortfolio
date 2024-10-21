@@ -264,12 +264,12 @@ p {
 }
 @media (min-width: 1500px) {
     p {
-        width: 500px;
+        width: 600px;
     }
 }
 @media (min-width: 1800px) {
     p {
-        width: 500px;
+        width: 600px;
     }
 }
 #ProjectsRow1 {
