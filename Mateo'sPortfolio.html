@@ -10,10 +10,22 @@
         <script src="portfolioScript.js"> </script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
-        <script>
+        <script> // tracks web analytics on Vercel
             window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
         </script>
         <script defer src="/_vercel/insights/script.js"></script>
+        <script type="text/javascript"> // tracks form analytics on Basin
+            function configureAhoy() {
+                ahoy.configure({
+                    visitsUrl: "https://usebasin.com/ahoy/visits",
+                    eventsUrl: "https://usebasin.com/ahoy/events",
+                    page: "63efc11b9121"
+                });
+                ahoy.trackView();
+                ahoy.trackSubmits();
+            }
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/ahoy.js@0.3.9/dist/ahoy.min.js" async defer onload="configureAhoy()"></script>
     </head>
     <body onload="onLoadFunctions()">
         <header align="center">
