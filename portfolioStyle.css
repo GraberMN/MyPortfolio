@@ -388,6 +388,10 @@ figcaption {
     display: flex;
     justify-content: center;
 }
+#SkillsRow3 {
+    display: flex;
+    justify-content: center;
+}
 #Item1 {
     display: flex;
     border-style: solid;
@@ -412,7 +416,6 @@ figcaption {
     padding-left: 77px;
     padding-right: 38px;
     border-left: none;
-    border-bottom: none;
     border-radius: 15px;
 }
 #Item4 {
@@ -420,6 +423,23 @@ figcaption {
     border-style: solid;
     padding-left: 42px;
     padding-right: 88px;
+    border-right: none;
+    border-radius: 15px;
+}
+#Item5 {
+    display: flex;
+    border-style: solid;
+    padding-left: 58px;
+    padding-right: 38px;
+    border-left: none;
+    border-bottom: none;
+    border-radius: 15px;
+}
+#Item6 {
+    display: flex;
+    border-style: solid;
+    padding-left: 42px;
+    padding-right: 130px;
     border-bottom: none;
     border-right: none;
     border-radius: 15px;
