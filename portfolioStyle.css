@@ -5,6 +5,7 @@ body {
     margin-top: -10px;
     background-position: center;
     background-attachment: fixed;
+    min-width: 475px;
 }
 header {
     position: fixed;
@@ -226,6 +227,15 @@ button:hover {
         margin-right: 80px;
     }
 }
+@media (max-width: 500px) {
+    #Icon {
+        margin-right: 50px;
+    }
+    header {
+        left: 5px;
+        right: 5px;
+    }
+}
 #CenteredHeader {
     color: aqua;
     font-style: italic;
@@ -278,12 +288,15 @@ p {
 }
 #Project1Image {
     border-color: white;
+    max-width: none;
 }
 #Project2Image {
     border-color: white;
+    max-width: none;
 }
 #Project3Image {
     border-color: white;
+    max-width: none;
 }
 figcaption {
     color: white;
@@ -334,6 +347,9 @@ figcaption {
     }
 }
 @media (max-width: 665px) {
+    #Project1 {
+        margin-left: 70px;
+    }
     #Project1Image {
         height: 125px;
         width: auto;
@@ -541,4 +557,7 @@ html::-webkit-scrollbar-button:vertical:decrement {
 }
 html::-webkit-scrollbar-button:vertical:decrement:hover {
     background-image: url("Images/Top\ Scrollbar\ Button\ On\ Hover.png")
+}
+html::-webkit-scrollbar-corner {
+    background: dimgrey;
 }

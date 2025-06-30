@@ -62,6 +62,7 @@ function onLoadFunctions() {
     setInterval(greetingLangCycle, 18000);
     activitiesLangCycle();
     setInterval(activitiesLangCycle, 36000);
+    handleHoverAndLeaveSection();
     underlineCurrentSection();
     alertOnReturn();
 }
@@ -117,6 +118,20 @@ function activitiesChange5() {
 function activitiesChange6() {
     document.getElementById("Activities").innerHTML = "Comp Sci Major.";
 }
+function handleHoverAndLeaveSection() {
+    const headerButtons = document.getElementsByClassName("HeaderButton");
+    for (let i = 0; i < headerButtons.length; i++) {
+        headerButtons[i].addEventListener("mouseover", () => {
+            headerButtons[i].style.textDecorationLine = "underline";
+            headerButtons[i].style.textDecorationColor = "white";
+            headerButtons[i].style.textDecorationThickness = "4px";
+        })
+        headerButtons[i].addEventListener("mouseout", () => {
+            headerButtons[i].style.textDecorationLine = "none";
+            headerButtons[k].style.textDecorationLine = "underline";
+        })
+    }
+}
 function underlineCurrentSection() {
     k = 0;
     window.addEventListener("scroll", () => {
@@ -124,15 +139,6 @@ function underlineCurrentSection() {
         const headerButtons = document.getElementsByClassName("HeaderButton");
         for (let i = 0; i < headerButtons.length; i++) {
             headerButtons[i].style.textDecorationLine = "none";
-            headerButtons[i].addEventListener("mouseover", () => {
-                headerButtons[i].style.textDecorationLine = "underline";
-                headerButtons[i].style.textDecorationColor = "white";
-                headerButtons[i].style.textDecorationThickness = "4px";
-            })
-            headerButtons[i].addEventListener("mouseout", () => {
-                headerButtons[i].style.textDecorationLine = "none";
-                headerButtons[k].style.textDecorationLine = "underline";
-            })
         }
         if (scrollTop >= 0 && scrollTop <= 325) {
             underlineSection("ActualHomeButton");
