@@ -6,6 +6,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     min-width: 475px;
+    user-select: none;
 }
 header {
     position: fixed;
